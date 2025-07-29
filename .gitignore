@@ -7,18 +7,46 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Environment variables
+.env
+.env.*.local
+
+# OS files
 .DS_Store
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
 *.suo
-*.ntvs*
+.ntvs/
 *.njsproj
 *.sln
 *.sw?
+
+# Optional: uploads or temporary data (if added later)
+uploads/
+tmp/
+cache/
+
+# Ignore test coverage reports
+coverage/
+
+# PM2 process files (if using PM2)
+pids
+*.pid
+*.seed
+
+# Ignore any database dump files
+dump/
+*.mongo
+*.bson

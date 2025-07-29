@@ -1,0 +1,32 @@
+{
+  "name": "trip-planner-backend",
+  "version": "1.0.0",
+  "description": "A backend API for planning and managing trips using Node.js, Express, and MongoDB.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trip",
+    "travel",
+    "planner",
+    "backend",
+    "express",
+    "nodejs",
+    "mongoose",
+    "API"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10"
+  }
+}
